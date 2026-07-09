@@ -1,3 +1,7 @@
+# 🌐 Live Demo
+🚀 Try the application here:
+https://customer-churn-prediction-system-7zqjs3a5nm4k6qxhd3gjnk.streamlit.app/
+
 # 📊 Customer Churn Prediction System
 An end-to-end Machine Learning web application built using **Python**, **Scikit-learn** and **Streamlit** to predict customer churn based on customer demographics, account details and subscribed services.
 
