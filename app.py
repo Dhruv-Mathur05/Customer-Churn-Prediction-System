@@ -409,7 +409,7 @@ def show_prediction_engine():
     if not st.session_state.prediction_started:
         st.title("🤖 AI Prediction Engine")
         st.info('Initializing prediction engine...')
-        st.markdown("###Please wait while we analyze the customer's profile...")
+        st.markdown("### Please wait while we analyze the customer's profile...")
         progress = st.progress(0)
         status = st.empty()
 
