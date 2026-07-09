@@ -113,17 +113,29 @@ The following screenshots demonstrate different stages of the application workfl
 
 ### 📝 Customer Details Form
 
+### Customer Form(Display 1)
 ![Customer Form : Display 1](assets/customer_form1.png)
+
+### Customer Form(Display 2)
 ![Customer Form : Display 2](assets/customer_form2.png)
+
+### Customer Form(Display 3)
 ![Customer Form : Display 3](assets/customer_form3.png)
+
+### Customer Form(Display 4)
 ![Customer Form : Dsiplay 4](assets/customer_form4.png)
 
 ---
 
 ### 👀 Review Page
 
+### Review Page(Display 1)
 ![Review Page : Display 1](assets/review_page1.png)
+
+### Review Page(Display 2)
 ![Review Page : Display 2](assets/review_page2.png)
+
+### Review Page(Display 3)
 ![Review Page : Display 3](assets/review_page3.png)
 
 ---
@@ -136,7 +148,10 @@ The following screenshots demonstrate different stages of the application workfl
 
 ### 📊 Prediction Result
 
+### Prediction Result(Display 1)
 ![Prediction Result : Display 1](assets/prediction_result1.png)
+
+### Prediction Result(Display 2)
 ![Prediction Result : Display 2](assets/prediction_result2.png)
 
 ---
@@ -146,17 +161,27 @@ The following screenshots demonstrate different stages of the application workfl
 [📩 View Sample Report](sample_reports/Customer_Churn_Report.pdf)
 ![PDF Report Preview](assets/report.png)
 
-## 📁 Project Structure
+## 📂 Project Structure
 
-```
+```text
 Customer-Churn-Prediction-System/
 │
-├── app.py
-├── README.md
-├── requirements.txt
+├── assets/
+│   ├── customer_form1.png
+│   ├── customer_form2.png
+│   ├── customer_form3.png
+│   ├── customer_form4.png
+│   ├── home_page.png
+│   ├── prediction_engine.png
+│   ├── prediction_result1.png
+│   ├── prediction_result2.png
+│   ├── report.png
+│   ├── review_page1.png
+│   ├── review_page2.png
+│   └── review_page3.png
 │
 ├── data/
-│   └── Telco-Customer-Churn.csv
+│   └── telco_dataset.csv
 │
 ├── models/
 │   └── customer_churn_pipeline.pkl
@@ -164,11 +189,16 @@ Customer-Churn-Prediction-System/
 ├── notebooks/
 │   └── Customer Churn Detection.ipynb
 │
+├── sample_reports/
+│   └── Customer_Churn_Report.pdf
+│
 ├── utils/
 │   └── pdf_generator.py
 │
-└── images/
-    └── (Application Screenshots)
+├── app.py
+├── README.md
+├── requirements.txt
+└── .gitignore
 ```
 
 ## ⚙️ Installation
