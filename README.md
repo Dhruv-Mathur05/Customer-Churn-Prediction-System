@@ -107,37 +107,44 @@ The following screenshots demonstrate different stages of the application workfl
 
 ### 🏠 Home Page
 
-*(Screenshot will be added later)*
+![Home Page](assets/home_page.png)
 
 ---
 
 ### 📝 Customer Details Form
 
-*(Screenshot will be added later)*
+![Customer Form : Display 1](assets/customer_form1.png)
+![Customer Form : Display 2](assets/customer_form2.png)
+![Customer Form : Display 3](assets/customer_form3.png)
+![Customer Form : Dsiplay 4](assets/customer_form4.png)
 
 ---
 
 ### 👀 Review Page
 
-*(Screenshot will be added later)*
+![Review Page : Display 1](assets/review_page1.png)
+![Review Page : Display 2](assets/review_page2.png)
+![Review Page : Display 3](assets/review_page3.png)
 
 ---
 
 ### ⚙️ Prediction Engine
 
-*(Screenshot will be added later)*
+![Prediction Engine](assets/prediction_engine.png)
 
 ---
 
 ### 📊 Prediction Result
 
-*(Screenshot will be added later)*
+![Prediction Result : Display 1](assets/prediction_result1.png)
+![Prediction Result : Display 2](assets/prediction_result2.png)
 
 ---
 
 ### 📄 Generated PDF Report
 
-*(Screenshot will be added later)*
+[📩 View Sample Report](sample_reports/Customer_Churn_Report.pdf)
+![PDF Report Preview](assets/report.png)
 
 ## 📁 Project Structure
 
