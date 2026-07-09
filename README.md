@@ -30,3 +30,192 @@ Recommendations
 - Git & GitHub
 - Report Generation
 - Project Documentation
+
+## 🛠️ Technologies Used
+### Programming Language
+- Python
+
+### Machine Learning
+- Scikit-learn
+- Imbalanced-learn (SMOTE)
+
+### Data Processing
+- Pandas
+- NumPy
+
+### Web Application
+- Streamlit
+
+### Data Visualization
+- Plotly
+
+### Report Generation
+- ReportLab
+
+### Model Serialization
+- Joblib
+
+### Version Control
+- Git
+- GitHub
+
+## 📂 Dataset
+This project uses the **Telco Customer Churn Dataset**, which contains customer demographic details, account information, subscribed services, and billing information.
+
+### Input Features
+
+- Gender
+- Senior Citizen
+- Partner
+- Dependents
+- Tenure
+- Phone Service
+- Multiple Lines
+- Internet Service
+- Online Security
+- Online Backup
+- Device Protection
+- Tech Support
+- Streaming TV
+- Streaming Movies
+- Contract
+- Paperless Billing
+- Payment Method
+- Monthly Charges
+- Total Charges
+
+### Target Variable
+
+- Churn (Yes / No)
+
+## 🤖 Machine Learning Pipeline
+The prediction system is built using a complete Scikit-learn pipeline that performs preprocessing and prediction in a single workflow.
+
+Pipeline Components:
+
+- Data Preprocessing
+- One-Hot Encoding
+- Feature Scaling
+- SMOTE (Handling Class Imbalance)
+- Feature Selection
+- Random Forest Classifier
+
+The trained pipeline is saved using **Joblib**, allowing the application to load the model and make predictions without retraining.
+
+## 📷 Application Preview
+The following screenshots demonstrate different stages of the application workflow.
+
+### 🏠 Home Page
+
+*(Screenshot will be added later)*
+
+---
+
+### 📝 Customer Details Form
+
+*(Screenshot will be added later)*
+
+---
+
+### 👀 Review Page
+
+*(Screenshot will be added later)*
+
+---
+
+### ⚙️ Prediction Engine
+
+*(Screenshot will be added later)*
+
+---
+
+### 📊 Prediction Result
+
+*(Screenshot will be added later)*
+
+---
+
+### 📄 Generated PDF Report
+
+*(Screenshot will be added later)*
+
+## 📁 Project Structure
+
+```
+Customer-Churn-Prediction-System/
+│
+├── app.py
+├── README.md
+├── requirements.txt
+│
+├── data/
+│   └── Telco-Customer-Churn.csv
+│
+├── models/
+│   └── customer_churn_pipeline.pkl
+│
+├── notebooks/
+│   └── Customer Churn Detection.ipynb
+│
+├── utils/
+│   └── pdf_generator.py
+│
+└── images/
+    └── (Application Screenshots)
+```
+
+## ⚙️ Installation
+Clone the repository:
+
+```bash
+git clone https://github.com/Dhruv-Mathur65/Customer-Churn-Prediction-System.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd Customer-Churn-Prediction-System
+```
+
+Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the Streamlit application:
+
+```bash
+streamlit run app.py
+```
+## 🚀 Future Scope
+Some planned improvements for future versions include:
+
+- Explainable AI using SHAP
+- Customer Login & Authentication
+- Database Integration
+- Cloud Deployment
+- Model Comparison Dashboard
+- REST API Support
+- Improved Interactive Visualizations
+- Enhanced Recommendation System
+
+## 👨‍💻 Author
+**Dhruv Mathur**
+
+B.Tech Computer Science & Engineering
+
+Passout Year: **2026**
+
+GitHub:
+https://github.com/Dhruv-Mathur05
+
+## 🙏 Acknowledgements
+This project was developed as a learning project to strengthen practical knowledge in Machine Learning, Data Analysis, Model Deployment, and Software Development.
+
+Special thanks to the open-source community and the libraries that made this project possible.
+
+## ⭐ Support
+If you found this project useful or interesting, please consider giving this repository a ⭐ on GitHub.
+
+Your support is greatly appreciated!
