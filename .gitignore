@@ -1,4 +1,4 @@
 .ipynb_checkpoints/ 
 __pycache__/ 
 *.pyc 
-Customer_Churn_Report.pdf 
+/Customer_Churn_Report.pdf 

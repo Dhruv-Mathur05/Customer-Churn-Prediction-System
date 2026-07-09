@@ -424,7 +424,7 @@ def show_prediction_engine():
         for i, step in enumerate(steps):
             status.info(step)
             progress.progress((i + 1) * 20)
-            time.sleep(0.8)
+            time.sleep(1.1)
 
         st.success("All tasks completed!")
         time.sleep(3)
